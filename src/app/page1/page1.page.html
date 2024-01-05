@@ -1,0 +1,12 @@
+<!-- home.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Color List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-color-list *ngFor="let color of colors" [color]="color"></app-color-list>
+</ion-content>
